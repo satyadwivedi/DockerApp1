@@ -1,0 +1,24 @@
+{
+  "name": "dockerapp1",
+  "version": "1.0.0",
+  "description": "first docker app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Docker"
+  ],
+  "author": "satya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chalk": "^4.1.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": "^20"
+  }
+}
